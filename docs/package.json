@@ -1,0 +1,24 @@
+{
+  "name": "atomic-bohr-model-examples",
+  "version": "1.0.0",
+  "description": "Examples using the d3.js atomic bohr model",
+  "main": "index.js",
+  "dependencies": {
+    "atomic-bohr-model": "^1.0.6",
+    "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SolarisTechServices/Atomic-Model.git"
+  },
+  "author": "Solaris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SolarisTechServices/Atomic-Model/issues"
+  },
+  "homepage": "https://github.com/SolarisTechServices/Atomic-Model#readme"
+}
