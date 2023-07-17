@@ -103,12 +103,7 @@ if (!isMobile) {
   orbitalRotationConfig.pattern.clockwise = alternating
   var newAtom = new Atom(atomConfig)
   newAtom.setNumElectrons(105);
-    $('.element-name').animate({'opacity': 0}, 500, function() {
-      $(this).text(newAtom.elementName)
-    }).animate({'opacity': 1}, 500)
-    $('.atomic-details').animate({'opacity': 0}, 500, function() {
-      $(this).text(newAtom.wikiSummary)
-    }).animate({'opacity': 1}, 500)
+
     setTimeout(function() {
       newAtom.rotateOrbitals(orbitalRotationConfig)
     }, 1500)
@@ -123,7 +118,7 @@ if (!isMobile) {
     alternating = alternate[1]
     orbitalRotationConfig.pattern.clockwise = alternating
 
-    newAtom.setNumElectrons(1);
+    newAtom.setNumElectrons(105);
     $('.element-name').animate({'opacity': 0}, 500, function() {
       $(this).text(newAtom.elementName)
     }).animate({'opacity': 1}, 500)
