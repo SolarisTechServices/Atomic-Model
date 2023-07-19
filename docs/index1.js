@@ -1,3 +1,9 @@
+// const numele = 1;
+const urlParams = new URLSearchParams(window.location.search);
+const numele = urlParams.get('num');
+console.log(numele);
+
+console.log(numele);
 var atomConfig = {  //All atoms share this base-config
   nucleusRadius: 20,
   electronRadius: 2,
@@ -102,7 +108,7 @@ if (!isMobile) {
   alternating = alternate[1]
   orbitalRotationConfig.pattern.clockwise = alternating
   var newAtom = new Atom(atomConfig)
-  newAtom.setNumElectrons(1);
+  newAtom.setNumElectrons(numele);
 
     setTimeout(function() {
       newAtom.rotateOrbitals(orbitalRotationConfig)
@@ -118,7 +124,7 @@ if (!isMobile) {
     alternating = alternate[1]
     orbitalRotationConfig.pattern.clockwise = alternating
 
-    newAtom.setNumElectrons(1);
+    newAtom.setNumElectrons(numele);
     $('.element-name').animate({'opacity': 0}, 500, function() {
       $(this).text(newAtom.elementName)
     }).animate({'opacity': 1}, 500)

@@ -1,3 +1,6 @@
+//
+
+console.log(numele);
 var atomConfig = {  //All atoms share this base-config
   nucleusRadius: 20,
   electronRadius: 2,
