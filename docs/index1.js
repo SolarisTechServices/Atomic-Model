@@ -102,7 +102,7 @@ if (!isMobile) {
   alternating = alternate[1]
   orbitalRotationConfig.pattern.clockwise = alternating
   var newAtom = new Atom(atomConfig)
-  newAtom.setNumElectrons(105);
+  newAtom.setNumElectrons(1);
 
     setTimeout(function() {
       newAtom.rotateOrbitals(orbitalRotationConfig)
@@ -118,7 +118,7 @@ if (!isMobile) {
     alternating = alternate[1]
     orbitalRotationConfig.pattern.clockwise = alternating
 
-    newAtom.setNumElectrons(105);
+    newAtom.setNumElectrons(1);
     $('.element-name').animate({'opacity': 0}, 500, function() {
       $(this).text(newAtom.elementName)
     }).animate({'opacity': 1}, 500)
