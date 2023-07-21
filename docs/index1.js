@@ -89,7 +89,7 @@ if (!isMobile) {
     var max = 118
     return 1
   }
-  atomConfig.nucleusRadius = 40
+  atomConfig.nucleusRadius = 20
   atomConfig.electronRadius = 3
   atomConfig.symbolOffset = 30
   
