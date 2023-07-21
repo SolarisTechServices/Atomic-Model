@@ -5,12 +5,12 @@ console.log(numele);
 
 console.log(numele);
 var atomConfig = {  //All atoms share this base-config
-  nucleusRadius: 20,
-  electronRadius: 2,
+  nucleusRadius: 10,
+  electronRadius: 1,
   symbolOffset: 7,
   animationTime: 600,
   orbitalColor: 'rgba(24, 255, 255, 0.3)',
-  orbitalWidth: 0.5,
+  orbitalWidth: 0.25,
   nucleusColor: 'rgba(3, 169, 244, 0.2)',
   electronColor: 'rgba(24, 255, 255, 0.6)'
 }

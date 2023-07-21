@@ -1,4 +1,6 @@
-//
+const urlParams = new URLSearchParams(window.location.search);
+const numele = urlParams.get('num');
+console.log(num);
 
 console.log(numele);
 var atomConfig = {  //All atoms share this base-config
