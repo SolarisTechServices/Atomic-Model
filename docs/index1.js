@@ -89,8 +89,8 @@ if (!isMobile) {
     var max = 118
     return 1
   }
-  atomConfig.nucleusRadius = 80
-  atomConfig.electronRadius = 5
+  atomConfig.nucleusRadius = 40
+  atomConfig.electronRadius = 3
   atomConfig.symbolOffset = 30
   
   $('#periodic-container')
