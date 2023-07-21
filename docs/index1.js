@@ -89,9 +89,9 @@ if (!isMobile) {
     var max = 118
     return 1
   }
-  atomConfig.nucleusRadius = 20
+  atomConfig.nucleusRadius = 30
   atomConfig.electronRadius = 3
-  atomConfig.symbolOffset = 30
+  atomConfig.symbolOffset = 15
   
   $('#periodic-container')
   .append(`<div class=\'col-sm-12 element-container\' id='bohr-container-1'></div>`);
