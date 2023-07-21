@@ -1,9 +1,6 @@
 // const numele = 1;
 const urlParams = new URLSearchParams(window.location.search);
 const numele = urlParams.get('num');
-console.log(numele);
-
-console.log(numele);
 var atomConfig = {  //All atoms share this base-config
   nucleusRadius: 10,
   electronRadius: 1,
